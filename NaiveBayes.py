@@ -34,7 +34,7 @@ for folder in all_folders_test:
             with open(fname) as infile:
                 outfile.write(infile.read())'''
 
-
+#remove stop
 def remove_stopwords():
     processed_list = []
     for file in merged_file_names:

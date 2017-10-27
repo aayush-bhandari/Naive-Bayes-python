@@ -70,7 +70,7 @@ def calculate_frequencey(file):
            tmplist[word] = (tmplist[word] + 1)  / (totalwords + uniquewords)
         print(tmplist)
         return tmplist
-
+#cound cross count
 def cross_count(b):
 
     for classes in b:

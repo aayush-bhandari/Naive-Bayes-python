@@ -7,6 +7,7 @@ stop_words.update(['from:','subject:','>','>|'],',',':','.')
 
 
 # pathTrain = "20news-bydate/20news-bydate-train-Sample/"
+# pathTrain = "20news-bydate/20news-bydate-train-5/"
 pathTrain = sys.argv[1]
 all_folders_train = os.listdir(pathTrain)
 print("Classes in traning data: ", all_folders_train)
@@ -15,16 +16,19 @@ print("Classes in traning data: ", all_folders_train)
 # pathTest = "20news-bydate/20news-bydate-test-Sample/"
 # pathTest = "20news-bydate/20news-bydate-test-5/"
 pathTest = sys.argv[2]
+
+if os.path.exists(pathTest + "test/"):
+    shutil.rmtree(pathTest + "test/")
+
 all_folders_test = os.listdir(pathTest)
 print("Classes in test data: ", all_folders_test)
+
 
 predictedRight = 0
 predictedWrong = 0
 
 
 def removestopwordstest(listOfClasses, pathToClasses):
-    if os.path.exists(pathToClasses + "test/"):
-        shutil.rmtree(pathToClasses + "test/")
 
     for folder in listOfClasses:
         all_files = os.listdir(pathToClasses + folder + '/')
@@ -35,7 +39,7 @@ def removestopwordstest(listOfClasses, pathToClasses):
             ip = pathToClasses + folder + '/' + fname
 
             with open(os.path.join(outputdirectory, os.path.basename(fname)), 'w') as outfile:
-                with open(ip) as infile:
+                with open(ip, 'r') as infile:
                     for line in infile:
                         if (line.strip()):  # to check if line is a empty line
                             a = line.rstrip().lower()

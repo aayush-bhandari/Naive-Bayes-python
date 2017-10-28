@@ -5,29 +5,24 @@ from collections import Counter
 stop_words = set(get_stop_words('english'))
 stop_words.update(['from:','subject:','>','>|'],',',':','.')
 
-
-# pathTrain = "20news-bydate/20news-bydate-train-Sample/"
-# pathTrain = "20news-bydate/20news-bydate-train-5/"
+#pathTrain = "20news-bydate/20news-bydate-train-5/"
 pathTrain = sys.argv[1]
 all_folders_train = os.listdir(pathTrain)
-print("Classes in traning data: ", all_folders_train)
+#print("Classes in traning data: ", all_folders_train)
 
-
-# pathTest = "20news-bydate/20news-bydate-test-Sample/"
-# pathTest = "20news-bydate/20news-bydate-test-5/"
+#pathTest = "20news-bydate/20news-bydate-test-5/"
 pathTest = sys.argv[2]
 
 if os.path.exists(pathTest + "test/"):
     shutil.rmtree(pathTest + "test/")
 
 all_folders_test = os.listdir(pathTest)
-print("Classes in test data: ", all_folders_test)
-
+#print("Classes in test data: ", all_folders_test)
 
 predictedRight = 0
 predictedWrong = 0
 
-
+# Remove stop words from all files of test folder
 def removestopwordstest(listOfClasses, pathToClasses):
 
     for folder in listOfClasses:
@@ -48,7 +43,7 @@ def removestopwordstest(listOfClasses, pathToClasses):
                                 if word not in stop_words:
                                     outfile.write(word + " ")
 
-
+# Test model
 def testmodel(trainedModel, path, priorDict):
     all_folders = os.listdir(path)
     for folder in all_folders:
@@ -59,7 +54,6 @@ def testmodel(trainedModel, path, priorDict):
             # print("Total words test: ", totalword)
             uniquewords = len(totalwordsdict)
             # print("Unique words test: ", uniquewords)
-
             all_files = glob.glob(path + folder + '/*')
             # print("All files length", len(all_files))
             for fname in all_files:
@@ -89,14 +83,14 @@ def testmodel(trainedModel, path, priorDict):
                     global  predictedRight
                     predictedRight = predictedRight + 1
 
-
+#Get total words in the file
 def getTotalWords(dict):
     totalwords = 0
     for key in dict:
         totalwords = totalwords + dict[key]
     return totalwords
 
-
+#Calulate occurence of each word in a file
 def calculate_frequency(outerclass, innerclass, d):
     with open(outerclass) as f:
         totalwordsdict = Counter(f.read().split())
@@ -112,7 +106,7 @@ def calculate_frequency(outerclass, innerclass, d):
 
     return totalwordsdict
 
-
+# Calculate prior of all the the classes
 def findPrior(priorDict):
      totalNumberOfFiles = 0
      numberOfFilesInFolder = {}
@@ -126,7 +120,7 @@ def findPrior(priorDict):
          priorDict[folder] = numberOfFilesInFolder[folder] / totalNumberOfFiles
 
 
-# Removes stop words and also creates a common file for each class
+# Removes stop words from training files and also creates a common file for each class
 def preprocessing(listOfClasses, pathToClasses):
     # print("Path to training classes: ", pathToClasses)
     for eachClass in listOfClasses:
@@ -150,12 +144,11 @@ def main():
     # Calculating Prior for each class
     priorDict = {}
     findPrior(priorDict)
-    print("Prior Dict: ", priorDict)
+    #print("Prior Dict: ", priorDict)
 
     # Calculating probability of each word in their respective file
     trainedModel = {}
     for outerclass in all_folders_train:
-        #for innerclass in all_folders_test:
         trainedModel[outerclass] = calculate_frequency(outerclass, outerclass, trainedModel)
     # print("Trained Model: ", trainedModel)
 

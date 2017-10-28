@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06bff574-09d5-4513-be21-dfca387d0e36" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out2.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/comp.sys.ibm.pc.hardware/60721" afterPath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/comp.sys.ibm.pc.hardware/60721" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/comp.sys.ibm.pc.hardware/60738" afterPath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/comp.sys.ibm.pc.hardware/60738" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/misc.forsale/76115" afterPath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/misc.forsale/76115" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/misc.forsale/76117" afterPath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/misc.forsale/76117" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/comp.sys.ibm.pc.hardware/60721" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/comp.sys.ibm.pc.hardware/60738" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/misc.forsale/76115" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/misc.forsale/76117" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/test/comp.sys.ibm.pc.hardware/60721" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/test/comp.sys.ibm.pc.hardware/60738" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/test/misc.forsale/76115" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/test/misc.forsale/76117" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-train-5/comp.sys.ibm.pc.hardware/58343" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-train-5/comp.sys.ibm.pc.hardware/58827" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-train-5/misc.forsale/70337" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20news-bydate/20news-bydate-train-5/misc.forsale/74720" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comp.sys.ibm.pc.hardware" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc.forsale" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NaiveBayes.py" afterPath="$PROJECT_DIR$/NaiveBayes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comp.sys.ibm.pc.hardware" afterPath="$PROJECT_DIR$/comp.sys.ibm.pc.hardware" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc.forsale" afterPath="$PROJECT_DIR$/misc.forsale" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,14 +27,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="NaiveBayes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NaiveBayes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="98" column="29" lean-forward="false" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+            <state relative-caret-position="-204">
+              <caret line="50" column="35" lean-forward="false" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,7 +46,12 @@
     <findStrings>
       <find>totalword</find>
       <find>print</find>
+      <find>preprocessing</find>
       <find>testmodel</find>
+      <find>getTotalWords</find>
+      <find>Trained Model:</find>
+      <find>pathTest</find>
+      <find>removestopwordstest</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,8 +85,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,19 +98,6 @@
               <item name="Naive-Bayes-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Naive-Bayes-python" type="462c0819:PsiDirectoryNode" />
               <item name="20news-bydate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Naive-Bayes-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Naive-Bayes-python" type="462c0819:PsiDirectoryNode" />
-              <item name="20news-bydate" type="462c0819:PsiDirectoryNode" />
-              <item name="20news-bydate-test-5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Naive-Bayes-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Naive-Bayes-python" type="462c0819:PsiDirectoryNode" />
-              <item name="20news-bydate" type="462c0819:PsiDirectoryNode" />
-              <item name="20news-bydate-test-5" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,25 +160,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3420622" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -188,11 +185,71 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NaiveBayes.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/test/60721">
+    <entry file="file://$PROJECT_DIR$/NaiveBayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/test/60721" />
+    <entry file="file://$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/test/comp.sys.ibm.pc.hardware/60721">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comp.sys.ibm.pc.hardware">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc.forsale">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20news-bydate/20news-bydate-test-5/misc.forsale/60738">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20news-bydate/20news-bydate-train-5/comp.sys.ibm.pc.hardware/58343">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20news-bydate/20news-bydate-train-5/comp.sys.ibm.pc.hardware/58826">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -202,10 +259,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NaiveBayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="98" column="29" lean-forward="false" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+        <state relative-caret-position="-204">
+          <caret line="50" column="35" lean-forward="false" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
